@@ -6,7 +6,7 @@ The Concrete Cracks Image Classification project uses deep learning to categoriz
 
 The project is made possible with the dataset obtained from:
 
-[Çağlar Fırat Özgenel's Concrete Crack Images for Classification](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
+[Çağlar Fırat Özgenel's Concrete Crack Images Datasets](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
 
 ## Build With
 
@@ -40,13 +40,13 @@ The project is made possible with the dataset obtained from:
 
 # Directory structure
 
-- [training.py](): Contains code for loading/preprocessing data, defining/compiling/fitting the transfer learning model.
+- [training.py](https://github.com/M-ImranIsmael/Concrete-Crack-Image-Classification/blob/master/training.py): Contains code for loading/preprocessing data, defining/compiling/fitting the transfer learning model.
 
-- [pictures](): Folder containing plots and results, including confusion matrix and training/validation accuracy/loss graphs.
+- [pictures](https://github.com/M-ImranIsmael/Concrete-Crack-Image-Classification/tree/master/pictures): Folder containing plots and results, including confusion matrix and training/validation accuracy/loss graphs.
 
-- [saved_models](): Folder containing saved trained model.
+- [saved_models](https://github.com/M-ImranIsmael/Concrete-Crack-Image-Classification/tree/master/save_model): Folder containing saved trained model.
 
-- [model.png](): Model architecture for the base model (MobileV2Net)
+- [model.png](https://github.com/M-ImranIsmael/Concrete-Crack-Image-Classification/blob/master/model.png): Model architecture for the base model (MobileV2Net)
 
 # Results
 
