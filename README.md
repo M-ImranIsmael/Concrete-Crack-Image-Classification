@@ -46,8 +46,6 @@ The project is made possible with the dataset obtained from:
 
 - [saved_models](https://github.com/M-ImranIsmael/Concrete-Crack-Image-Classification/tree/master/save_model): Folder containing saved trained model.
 
-- [model.png](https://github.com/M-ImranIsmael/Concrete-Crack-Image-Classification/blob/master/model.png): Model architecture for the base model (MobileV2Net)
-
 # Results
 
 ## EDA
