@@ -118,6 +118,11 @@ optimizer = optimizers.Adam(learning_rate=0.0001)
 loss = losses.SparseCategoricalCrossentropy()
 model.compile(optimizer=optimizer, loss=loss, metrics=["accuracy"])
 
+#%% Plot the complete model
+keras.utils.plot_model(
+    model, show_shapes=True, to_file="pictures/Imran_model_architecture.png"
+)
+
 # %% Evaluate with model before training
 loss0, acc0 = model.evaluate(pf_test)
 print("================Evaluation Before Training================")
